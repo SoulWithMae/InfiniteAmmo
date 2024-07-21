@@ -25,8 +25,8 @@ public static class AmmoInventoryPatch
 #if DEBUG
         ModConsole.Msg("Adding a shit ton of ammo", 1);
 #endif
-        __instance.AddCartridge(__instance.lightAmmoGroup, 500000);
-        __instance.AddCartridge(__instance.mediumAmmoGroup, 500000);
-        __instance.AddCartridge(__instance.heavyAmmoGroup, 500000);
+        __instance.AddCartridge(__instance.lightAmmoGroup, 1);
+        __instance.AddCartridge(__instance.mediumAmmoGroup, 1);
+        __instance.AddCartridge(__instance.heavyAmmoGroup, 1);
     }
 }
