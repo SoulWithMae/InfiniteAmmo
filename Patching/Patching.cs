@@ -1,5 +1,5 @@
 using HarmonyLib;
-using Il2CppSLZ.Bonelab;
+using Il2CppSLZ.Marrow;
 
 namespace WeatherElectric.InfiniteAmmo.Patching;
 
